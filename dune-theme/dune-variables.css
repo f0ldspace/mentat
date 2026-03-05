@@ -1,0 +1,42 @@
+/*
+ * Dune Theme - CSS Custom Properties
+ * Desert-dark aesthetic with sand gold and spice accents
+ *
+ * Drop this into any project and reference the variables.
+ * Import fonts separately:
+ * https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap
+ */
+
+:root {
+  /* ── Backgrounds ── */
+  --dune-bg:            #0d0c0a;   /* page background */
+  --dune-bg-card:       #13120f;   /* card / input surfaces */
+  --dune-bg-hover:      #1e1b16;   /* hover / elevated surfaces */
+  --dune-bg-panel:      #151310;   /* secondary panels */
+
+  /* ── Text ── */
+  --dune-text:          #e8dcc8;   /* primary text, headings, values */
+  --dune-text-secondary:#a0916f;   /* body text, card content */
+  --dune-text-muted:    #6b5d45;   /* labels, captions, placeholders */
+
+  /* ── Accents ── */
+  --dune-gold:          #c8a44e;   /* primary accent, links */
+  --dune-gold-dim:      #a07e2e;   /* subtle gold, decorative */
+  --dune-gold-bright:   #e0be5a;   /* emphasis, success */
+  --dune-spice:         #d4763a;   /* secondary accent, warnings */
+  --dune-spice-dim:     #a85a2a;   /* deep spice */
+  --dune-error:         #a83a2a;   /* errors, destructive */
+
+  /* ── Borders ── */
+  --dune-border:        #2a2520;   /* standard borders, grid gaps */
+  --dune-border-strong: #3d352a;   /* emphasis borders, timestamps */
+  --dune-border-accent: #4a3d28;   /* decorative borders */
+
+  /* ── Selection ── */
+  --dune-selection-bg:  rgba(200, 164, 78, 0.2);
+  --dune-selection-text:#e8dcc8;
+
+  /* ── Fonts ── */
+  --dune-font-body:     'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --dune-font-mono:     'JetBrains Mono', monospace;
+}
